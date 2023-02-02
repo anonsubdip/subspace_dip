@@ -1,0 +1,23 @@
+defaults:
+  - base_subspace
+
+fine_tuning:
+  optim:
+    optimizer: ngd
+    lr: 1
+    momentum: 0.9
+    use_adaptive_damping: False
+    use_adaptive_learning_rate: False
+    use_adaptive_momentum: False
+    stats_interval: 20
+    scale_curvature: 1
+    use_approximate_quad_model: False
+fisher_info:
+  batch_size: 1
+  num_random_vecs: 100
+  curvature_ema: 0.
+  weight_decay: 0
+  init_damping: 1e-4
+  mode: full
+  sampling_probes_mode: row_norm
+  return_stats: False

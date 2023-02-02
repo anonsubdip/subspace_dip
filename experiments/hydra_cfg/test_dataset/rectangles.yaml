@@ -1,0 +1,6 @@
+name: rectangles
+im_size: 128
+num_rects: 5
+num_angle_modes: 10
+angle_modes_sigma: 0.05
+noise_stddev: 0.05

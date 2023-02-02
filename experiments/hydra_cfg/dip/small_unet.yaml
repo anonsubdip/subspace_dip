@@ -1,0 +1,21 @@
+net:
+  scales: 4
+  channels: [64, 64, 64, 64]
+  skip_channels: [0, 0, 4, 4]
+  use_norm: True
+  use_sigmoid: False
+  sigmoid_saturation_thresh: 15
+optim:
+  lr: 1e-4
+  iterations: 20000
+  loss_function: mse
+  gamma: 1e-4
+  optimizer: adam
+  use_early_stop: False
+  buffer_size: 100
+  patience: 1000
+show_pbar: True
+torch_manual_seed: 10
+log_path: ./
+load_pretrain_model: False
+recon_from_randn: False

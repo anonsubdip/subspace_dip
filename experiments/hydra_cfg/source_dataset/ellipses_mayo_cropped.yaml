@@ -1,0 +1,8 @@
+name: ellipses_mayo
+im_size: 362
+max_n_ellipse: 140
+length: 
+  train: 32000
+  validation: 3200
+  test: 1024
+noise_stddev: 0.025

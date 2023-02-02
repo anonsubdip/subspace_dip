@@ -1,0 +1,16 @@
+subspace_dim: 900
+use_subsampling_orthospace: False
+subsampling_orthospace:
+  subsampling_orthospace_dim: 40
+params_space_retain_ftc: null 
+num_random_projs: null
+use_random_init: True
+use_approx: False
+forward_op_as_part_of_model: True
+ortho_basis_path: ./
+fine_tuning:
+  iterations: 10000
+  loss_function: mse
+  optim:
+    gamma: 1e-4
+    weight_decay: 0

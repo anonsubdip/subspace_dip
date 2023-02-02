@@ -1,0 +1,8 @@
+name: ellipses
+im_size: 128
+max_n_ellipse: 70
+length: 
+  train: 32000
+  validation: 3200
+  test: 128
+noise_stddev: 0.05

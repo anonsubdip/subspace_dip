@@ -1,0 +1,6 @@
+name: mayo_cropped
+im_size: 362
+noise_stddev: 0.025
+data_path: /home/rb876/rds/rds-t2-cs117/jl2329/data/LDCT-and-Projection-data
+num_slice_per_patient: 5
+sample_names: [L004, L006, L014, L019, L033]

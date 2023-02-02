@@ -1,0 +1,16 @@
+training: 
+  num_epochs: 100
+  batch_size: 32
+  save_best_learned_params_per_epoch: True
+  optim:
+    lr: 1e-3
+    weight_decay: 5e-6
+    scheduler_name: cosine
+    lr_min: 5e-4
+    max_lr: 5e-3
+sampling:
+  save_samples: True
+  num_samples: 1000
+  burn_in: 100
+  sampling_strategy: linear
+path_to_parameters_samples: null

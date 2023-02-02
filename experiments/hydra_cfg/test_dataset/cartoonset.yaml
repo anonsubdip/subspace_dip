@@ -1,0 +1,4 @@
+name: cartoonset
+im_size: 128
+noise_stddev: 0.05
+data_path_test: null

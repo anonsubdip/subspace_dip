@@ -1,0 +1,8 @@
+defaults:
+  - base_subspace
+
+fine_tuning:
+  iterations: 250
+  optim:
+    optimizer: lbfgs
+    lr: 1

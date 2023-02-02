@@ -1,0 +1,10 @@
+multirun_base_paths: null
+run_paths_filename: val_run_paths.json
+results_filename: val_results.json
+results_sorted_filename: val_results_sorted.json
+psnr_steady_start: -2500
+psnr_steady_stop: null
+select_gamma_multirun_base_paths: null
+select_gamma_run_paths_filename: select_gamma_run_paths.json
+select_gamma_results_filename: select_gamma_results.json
+select_gamma_results_sorted_filename: select_gamma_results_sorted.json

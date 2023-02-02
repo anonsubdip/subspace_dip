@@ -1,0 +1,46 @@
+defaults:
+  - base_subspace
+
+fine_tuning:
+  iterations: 1000
+  optim:
+    optimizer: ngd
+    lr: 1
+    momentum: 0.9
+    use_adaptive_damping: True
+    use_adaptive_learning_rate: True
+    use_adaptive_momentum: True
+    init_scale_curvature: 1e-3
+    use_approximate_quad_model: False
+    stats_interval: 5
+  hyperparams_kwargs:
+    adaptation_interval: 5 
+    min_lr_value: null 
+    max_lr_value: 500
+    momentum_min_value: null
+    curvature_reduction:
+      min_value: 1e-3
+      adaptation_decay: 0.75
+      lower_threshold: 0.95
+      upper_threshold: 1.05
+fisher_info:
+  batch_size: 1
+  num_random_vecs: 100
+  static_curvature_ema: 0.95
+  update_curvature_ema: False
+  curvature_ema_kwargs:
+    max_iterations: 200
+    base_curvature_ema: 0.5
+    power: 0.99
+    max_ema: 0.99
+    increase: True
+  init_damping: 100
+  adaptive_damping_kwargs: 
+    min_value: 1e-8
+    max_value: 100
+    adaptation_decay: 0.75
+    lower_threshold: 0.25
+    upper_threshold: 0.75
+  mode: vjp_rank_one
+  sampling_probes_mode: row_norm
+  return_stats: True

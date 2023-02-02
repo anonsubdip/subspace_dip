@@ -1,0 +1,17 @@
+defaults:
+  - source_dataset: ellipses
+  - test_dataset: cartoonset
+  - trafo: simple_trafo
+  - dip: small_unet
+  - sampler: base_sampler
+  - subspace: base_subspace
+  - val: base_val
+seed: 1
+num_images: 1
+load_dip_models_from_path: null
+path_to_params_traj_samples: null
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%dT%H:%M:%S.%fZ}
+  sweep:
+    dir: multirun/${now:%Y-%m-%dT%H:%M:%S.%fZ}

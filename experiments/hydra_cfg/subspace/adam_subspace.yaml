@@ -1,0 +1,8 @@
+defaults:
+  - base_subspace
+
+fine_tuning:
+  iterations: 10000
+  optim:
+    optimizer: adam
+    lr: 1e-2

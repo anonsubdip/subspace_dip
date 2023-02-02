@@ -1,0 +1,7 @@
+name: lodopab_mayo_cropped
+im_size: 362
+length: 
+  train: 35820
+  validation: 3522
+  test: 3553
+noise_stddev: 0.025

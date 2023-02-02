@@ -1,0 +1,8 @@
+name: disk_dist_ellipses
+im_size: 501
+diameter: 0.4745
+length: 
+  train: 32000
+  validation: 3200
+  test: 1024
+noise_stddev: 0.05
