@@ -14,8 +14,8 @@ We report two additional experimental figures on a denosing and deblurring tasks
 
 For denoising, at test time 10% white noise is removed from the images below.
 
-![natural_images_identity](https://user-images.githubusercontent.com/123627605/226110875-9fa2ed1c-b6fa-4281-bb04-e54455dad9f7.png)
+![natural_images_identity](https://user-images.githubusercontent.com/123627605/226174787-f401685e-c1ab-45b4-8be3-051bd71f7f72.png)
 
 For deblurring, at test time a Gaussian blur with standard deviation of 1.6 pixels is used along with 5% Gaussian noise.
 
-![natural_images_blurring](https://user-images.githubusercontent.com/123627605/226110886-dab86755-7f1f-49c7-a5fa-86df359ceafb.png)
+![natural_images_blurring](https://user-images.githubusercontent.com/123627605/226174802-8410e987-9944-4144-8327-6d70b05aaed3.png)
