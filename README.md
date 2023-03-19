@@ -12,10 +12,10 @@ We use the [PASCAL VOC](https://paperswithcode.github.io/torchbench/pascalvoc/) 
 
 We report two additional experimental figures on a denosing and deblurring tasks, where the standard DIP and Sub-DIP (NGD) are compared on three widely used [RGB images](https://sipi.usc.edu/database/database.php?volume=misc&image=3#top), namely Airplane F16, House, and Lena. Note that for both restoration task, the image resolution used is $256\times 256$, four times larger than the size used at pre-training. 
 
-At test time, 10% white noise is removed from the images below.
+For denoising, at test time 10% white noise is removed from the images below.
 
 ![natural_images_identity](https://user-images.githubusercontent.com/123627605/226110875-9fa2ed1c-b6fa-4281-bb04-e54455dad9f7.png)
 
-At test time, a Gaussian blur with standard deviation of 1.6 pixels is used along with 5% Gaussian noise.
+For deblurring, at test time a Gaussian blur with standard deviation of 1.6 pixels is used along with 5% Gaussian noise.
 
 ![natural_images_blurring](https://user-images.githubusercontent.com/123627605/226110886-dab86755-7f1f-49c7-a5fa-86df359ceafb.png)
